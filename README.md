@@ -48,9 +48,23 @@
         - 65 = 50 + 10 + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (3 koin)
         - **Minimum: 65 = 50 + 10 + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (3 koin)**
     
+    - **Contoh 3 :**  
     
-
-<!--- Graph Sederhana dari Titik A ke I-->
+        - Terdapat koin **1, 3, 4, 5**   
+        - Jika sejumlah uang sebesar **7** ingin ditukarkan dengan koin, berapa minimal koin yang didapat.
+        - Solusi greedy: &nbsp; 7 = 5 + 1 + 1 &nbsp;&nbsp;  ( 3 koin) ? **tidak optimal**        
+        - Solusi optimal: 7 = 4 + 3 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ( 2 koin)   
+    
+    - Jika jawaban terbaik mutlak TIDAK diperlukan, 
+    maka algoritma greedy sering berguna untuk menghasilkan solusi hampiran (approximation),  
+    daripada menggunakan algoritma yang lebih rumit untuk menghasilkan solusi yang eksak.
+    
+- Kesimpulan :  
+  Algoritma greedy membentuk solusi langkah  per langkah. 
+  Pada setiap langkah terdapat banyak pilihan yang perlu dieksplorasi. 
+  Sehingga, pada setiap langkah harus dibuat keputusan yang terbaik dalam menentukan pilihan 
+  (keputusan yang telah diambil pada suatu langkah tidak dapat diubah lagi pada langkah selanjutnya). 
+  Pada setiap langkah  membuat pilihan optimum lokal dengan harapan bahwa langkah sisanya mengarah kesolusi optimum global.
 
 <!--    ![](./ss/b.png)-->
     
