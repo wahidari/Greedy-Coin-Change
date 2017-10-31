@@ -25,15 +25,30 @@
     Diberikan uang senilai A. Tukar A dengan koin-koin uang yang ada.  
     Berapa jumlah minimum koin yang diperlukan untuk penukaran tersebut?
 
-    - **Contoh :**  
+    - **Contoh 1 :**  
     
-        - tersedia banyak koin 1, 5, 10, 25   
-        - Uang  senilai 32 dapat ditukar dengan banyak cara berikut:   
+        - Terdapat koin **1, 5, 10, 25**   
+        - Jika sejumlah uang sebesar **32** ingin ditukarkan dengan koin, berapa minimal koin yang didapat.
         - 32 = 1 + 1 + … + 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (32 koin)   
         - 32 = 5 + 5 + 5 + 5 + 10 + 1 + 1 &nbsp;&nbsp; (7 koin)   
         - 32 = 10 + 10 + 10 + 1 + 1 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (5 koin)   
         - ... dst             
         - **Minimum: 32 = 25 + 5 + 1 + 1 &nbsp;&nbsp; (4 koin)**   
+    
+    - **Contoh 2 :**  
+    
+        - Terdapat koin **5, 10, 25, 50**     
+        - Jika sejumlah uang sebesar **65** ingin ditukarkan dengan koin, berapa minimal koin yang didapat.  
+        - 65 = 5 + 5 + … + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;(13 koin)
+        - 65 = 10 + 5 + 5 + 5 + 5 + .. + 5 &nbsp;&nbsp; (12 koin)
+        - 65 = 10 + 10 + 5 + 5 + .. + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (11 koin)
+        - 65 = 10 + 10 + .. + 10 + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (7 koin)
+        - 65 = 25 + 25 + 10 + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (4 koin)
+        - 65 = 50 + 5 + 5 + 5  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (4 koin)
+        - 65 = 50 + 10 + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (3 koin)
+        - **Minimum: 65 = 50 + 10 + 5 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; (3 koin)**
+    
+    
 
 <!--- Graph Sederhana dari Titik A ke I-->
 
