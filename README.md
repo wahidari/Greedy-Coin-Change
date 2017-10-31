@@ -17,15 +17,27 @@
 
 - [![](https://gitlab.com/gitlab-org/gitaly/badges/master/coverage.svg)](https://wahidari.gitlab.io) python
 
-<!--## Screenshot-->
+## Documentation
 
-<!--- Misalkan kita ingin bergerak dari titik A ke titik I, dan kita telah menemukan beberapa jalur dari peta:-->
-
-<!--    ![](./ss/a.png)-->
+- Penukaran Koin 
     
-<!--    Dari peta yang ditampilkan di atas, dapat dilihat bahwa terdapat beberapa jalur dari titik A ke titik I. -->
-<!--    Sistem peta pada gambar secara otomatis telah memilih jalur terpendek (berwarna biru). -->
-<!--    Kita akan mencoba mencari jalur terpendek juga, dengan menggunakan algoritma greedy.-->
+    
+    Diberikan uang senilai A. Tukar A dengan koin-koin uang yang ada.  
+    Berapa jumlah minimum koin yang diperlukan untuk penukaran tersebut?
+
+    - tersedia banyak koin 1, 5, 10, 25
+    
+    - Uang  senilai 32 dapat ditukar dengan banyak cara berikut:
+    
+    - 32 = 1 + 1 + … + 1                     (32 koin)
+    
+    - 32 = 5 + 5 + 5 + 5 + 10 + 1 + 1   (7 koin)
+    
+    - 32 = 10 + 10 + 10 + 1 + 1           (5 koin)
+    
+    - … dst          
+    
+    - **Minimum: 32 = 25 + 5 + 1 + 1    (4 koin)**
 
 <!--- Graph Sederhana dari Titik A ke I-->
 
