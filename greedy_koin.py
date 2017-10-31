@@ -39,19 +39,25 @@ if __name__ == '__main__':
     # C := Himpunan Kandidat
     # S := Himpunan Solusi
     n = [33000, 
-         7, 
-         15, 
-         20]
+         32, 
+         65, 
+         7]
     C = [
           [100000, 50000, 20000, 10000, 5000, 2000, 1000, 500, 200, 100],
-          [5, 4, 3, 1],
-          [10, 7, 1],
-          [15, 10, 1]
+          [25, 10, 5, 1],
+          [50, 25, 10, 5],
+          [5, 4, 3, 1]
         ]
 #    n = [32]
 #    C = [[25, 10, 5, 1]]
-
-    for i in range(4):
+    
+#    n = [65]
+#    C = [[50, 25, 10, 5]]
+#
+#    n = [7]
+#    C = [[5, 4, 3, 1]] 
+    
+    for i in range(len(n)):
 	    print ('\nUang Yang Ditukar:',n[i])
 	    print ("Himpunan Kandidat",C[i])
 	    print ('Solusi Greedy:',greedy(C[i],n[i]),"=",n[i])
