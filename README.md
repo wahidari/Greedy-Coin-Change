@@ -66,50 +66,21 @@
   (keputusan yang telah diambil pada suatu langkah tidak dapat diubah lagi pada langkah selanjutnya). 
   Pada setiap langkah  membuat pilihan optimum lokal dengan harapan bahwa langkah sisanya mengarah kesolusi optimum global.
 
-<!--    ![](./ss/b.png)-->
-    
-<!--    Dari gambar di atas, kita dapat melihat bagaimana sebuah peta jalur perjalanan dapat direpresentasikan dengan -->
-<!--    menggunakan graph, spesifiknya Directed Graph (graph berarah). Maka dari itu, untuk menyelesaikan permasalahan -->
-<!--    jarak terpendek ini kita akan menggunakan struktur data graph untuk merepresentasikan peta. -->
-<!--    Berikut adalah graph yang akan digunakan:-->
+- ScreenShot 1
 
-<!--- Graph Berarah dari Titik A ke I-->
+    ![](./ss/a.png)
 
-<!--    ![](./ss/c.png)-->
-    
-<!--- Graph Berarah Beserta Jarak Masing-Masing Titik dari Titik A ke I-->
+- ScreenShot 2
 
-<!--    ![](./ss/d.png)-->
-    
-<!--    Untuk mencari jarak terpendek dari A ke B, sebuah algoritma greedy akan menjalankan langkah-langkah seperti berikut:-->
-    
-    
-<!--    a. Kunjungi satu titik pada graph, dan ambil seluruh titik yang dapat dikunjungi dari titik sekarang.-->
-    
-    
-<!--    b. Cari local maximum ke titik selanjutnya.-->
-    
-    
-<!--    c. Tandai graph sekarang sebagai graph yang telah dikunjungi, dan pindah ke local maximum yang telah ditentukan.-->
-    
-    
-<!--    d. Kembali ke langkah 1 sampai titik tujuan didapatkan.-->
-    
-<!--- ScreenShot 5-->
+    ![](./ss/b.png)
 
-<!--    ![](./ss/e.png)-->
+- ScreenShot 3
+
+    ![](./ss/c.png)
     
-<!--    Dengan menggunakan algoritma greedy pada graph di atas, hasil akhir yang akan didapatkan sebagai jarak terpendek adalah A-C-D-G-I. -->
-<!--    Hasi jarak terpendek yang didapatkan ini tidak tepat dengan jarak terpendek yang sebenarnya (A-B-H-I). -->
-<!--    Algoritma greedy memang tidak selamanya memberikan solusi yang optimal, dikarenakan pencarian local maximum pada setiap langkahnya, -->
-<!--    tanpa memperhatikan solusi secara keseluruhan.-->
-<!--- ScreenShot 6-->
+- ScreenShot 4
 
-<!--    ![](./ss/f.png)-->
-
-<!--- ScreenShot 7-->
-
-<!--    ![](./ss/g.png)-->
+    ![](./ss/d.png)
     
 
 ## License
