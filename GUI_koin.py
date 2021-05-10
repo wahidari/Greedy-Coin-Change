@@ -1,3 +1,6 @@
+"""
+@author: wahidari, khairulazman67
+"""
 import tkinter
 from tkinter import *
 import pymsgbox
